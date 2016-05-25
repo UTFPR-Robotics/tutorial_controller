@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="tutorial_controller" type="TutorialServer" name="TutorialServer" output="screen"/>
+  <node pkg="tutorial_controller" type="TutorialClient" name="TutorialClient" output="screen"/>
+</launch>
